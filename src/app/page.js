@@ -1,10 +1,11 @@
+import Hero from "@/components/Hero/Hero";
+import Navbar from "../components/Navbar/Navbar";
 
-
-export default function Home() {
+export default function HomePage() {
   return (
     <>
-      {/* <h1>Speech Fix</h1> */}
-      {/* <p>Speech Fix is a web application that helps people with speech impediments to improve their speech.</p> */}
+      <Navbar />
+      <Hero />
     </>
   );
 }
