@@ -1,0 +1,11 @@
+.gradientBg {
+    background: linear-gradient(135deg, 
+      #ffffff 10%,   /* White covers 10% */
+      #6a928b 24%,   /* Second color starts at 10%, covers up to 30% */
+      #4d706a 35%,   /* Third color from 30% to 50% */
+      #16473e 48%,   /* Fourth color from 50% to 75% */
+      #10362f 100%   /* Last color fills from 75% to 100% */
+    );
+    height: 100vh;
+  }
+  

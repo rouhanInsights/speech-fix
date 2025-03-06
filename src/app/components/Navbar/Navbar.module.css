@@ -1,0 +1,57 @@
+.head{
+  padding: 5px 3px;
+  background: transparent;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  font-family: 'Poppins', sans-serif ;
+  font-weight: 200;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 20px;
+  /* border-bottom: 1px solid #ddd; */
+}
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.logoImage{
+  width: 150px;
+  height: 30px;
+  margin-left: 30px;
+}
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.navLinks a {
+  text-decoration: none;
+  color: rgb(2, 0, 141);
+  cursor: pointer;
+  font-size: 13px;
+  margin-right: 20px;
+  font-weight: 300;
+}
+.navLinks a:hover {
+  font-weight: 400;
+  border-bottom: 1px dashed #062C3D;
+}
+
+.loginButton{
+  background-color: #062C3D;
+  border: 1px solid #062C3D;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.loginButton:hover {
+  border-color: #15cea07c;
+  box-shadow: 0 0 10px #6fa8a59a;
+}

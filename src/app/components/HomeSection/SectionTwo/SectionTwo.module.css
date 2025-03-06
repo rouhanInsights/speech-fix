@@ -1,0 +1,83 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 20px;
+    background: url('../../../../../public/Images/sec7.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading{
+    font-size: 20px; 
+    /* background: linear-gradient(90deg, #000000 60%, #ffffff);  */
+    background-clip: text;
+    /* -webkit-text-fill-color: transparent;  */
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 7px;
+    font-family: poppins;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+    animation: fadeIn 1.5s ease-in-out; 
+}
+.title span{
+    border-bottom: 3px solid red;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagecontainer{
+    width: 40%;
+    height: auto;
+}
+.rightbox{
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 300;
+    color: #ffffff;
+}
+.topcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bottomcontent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    justify-content: center;
+    margin: 7px;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 1024px) {
+    .bottomcontent {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns for tablets */
+    }
+}
+
+@media (max-width: 600px) {
+    .bottomcontent {
+        grid-template-columns: repeat(1, 1fr); /* 1 column for mobile */
+    }
+}
+
