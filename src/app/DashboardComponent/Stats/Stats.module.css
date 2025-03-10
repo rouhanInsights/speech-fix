@@ -1,0 +1,60 @@
+/* Stats Container */
+.stats {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  /* Stats Heading */
+  .stats h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Stats List */
+  .stats ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual Stat Item */
+  .stats li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Hover Effect */
+  .stats li:hover {
+    background: #e0f2ff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .stats {
+      padding: 15px;
+    }
+  
+    .stats h3 {
+      font-size: 20px;
+    }
+  
+    .stats li {
+      font-size: 14px;
+    }
+  }
+  

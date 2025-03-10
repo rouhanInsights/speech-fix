@@ -1,0 +1,59 @@
+/* Alerts Container */
+.alerts {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  /* Alerts Heading */
+  .alerts h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  /* Alerts List */
+  .alerts ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual Alert Item */
+  .alerts li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Alert Icon */
+  .alert-icon {
+    font-size: 16px;
+  }
+  
+  /* Success Alert */
+  .alert-success {
+    border-left: 5px solid #28a745;
+  }
+  
+  /* Warning Alert */
+  .alert-warning {
+    border-left: 5px solid #ffc107;
+  }
+  
+  /* Hover Effect */
+  .alerts li:hover {
+    background: #e9ecef;
+  }
+  

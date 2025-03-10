@@ -1,0 +1,96 @@
+/* Main container */
+.main {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  }
+  
+  /* Section heading */
+  .heading h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Pricing section - Grid Layout */
+  .pricesection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* Individual Pricing Plan */
+  .plan {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .plan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Plan Title */
+  .plan h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3b82f6;
+  }
+  
+  /* Plan Description */
+  .plan p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  /* Price */
+  .plan span {
+    font-size: 26px;
+    font-weight: bold;
+    color: #d32f2f;
+  }
+  
+  /* Benefits List */
+  .benefitItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .benefitItem img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Button */
+  .plan button {
+    background: linear-gradient(90deg, #6ea9ff, #3b82f6);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .plan button:hover {
+    background: linear-gradient(90deg, #3b82f6, #6ea9ff);
+  }
+  

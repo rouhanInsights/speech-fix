@@ -1,0 +1,125 @@
+/** Background Wrapper */
+.backgroundWrapper {
+    /* background: linear-gradient(120deg, #f5f7fa, #c3cfe2);   */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background: url('../../../public/Images/contactbg.png');
+}
+
+/** Contact Form Box */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    width: 100%;
+    height: auto;
+    gap: 20px;
+    border-radius: 12px;
+    /* background-color: #fff; */
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(100deg, #f5f7fa 60%, #03132c 40%);
+}
+
+/** Left Side Form Section */
+.formSection {
+    flex: 1;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.heading {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #133e83;
+}
+
+.description {
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input {
+    padding: 12px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.button {
+    padding: 12px;
+    background-color: #133e83;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.backhome{
+    font-family: poppins;
+    font-size: 12px;
+}
+.backhome a{
+    color: #0062ff;
+}
+.infoItem {
+    text-align: center;
+    font-size: 10px;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infoItem img{
+    width: 20px;
+    margin-right: 10px;
+}
+.infoItem div{
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+.infoItem div p{
+    color: #0062ff;
+}
+/** Right Side Map Section */
+.mapSection {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin-right: 20px;
+}
